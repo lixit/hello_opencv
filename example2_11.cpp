@@ -7,7 +7,7 @@ int g_slider_position1 = 2;
 void onTrackbarSlide1( int pos, void *) {
 	g_slider_position1 = pos;
 }
-int main2_11( int argc, char* argv[] ) {
+int main( int argc, char* argv[] ) {
 	cv::namedWindow( "Example2_11", cv::WINDOW_AUTOSIZE );
 	cv::namedWindow( "Log_Polar", cv::WINDOW_AUTOSIZE );
 	// ( Note: could capture from a camera by giving a camera id as an int.)

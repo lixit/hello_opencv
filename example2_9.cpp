@@ -1,7 +1,7 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
 
-int main2_9( int argc, char** argv ) {
+int main( int argc, char** argv ) {
 	cv::Mat img_rgb, img_gry, img_pyr, img_pyr2, img_cny;
 
 	img_rgb = cv::imread( argv[1] );

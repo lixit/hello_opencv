@@ -1,7 +1,7 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
 
-int main_ipcam(int, char**) {
+int main(int, char**) {
 	cv::VideoCapture vcap;
 	cv::Mat image;
 

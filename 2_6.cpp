@@ -1,6 +1,6 @@
 #include <opencv2/opencv.hpp>
 
-int main2_6( int argc, char** argv ) {
+int main( int argc, char** argv ) {
 	cv::Mat img1,img2;
 	cv::namedWindow( "Example1", cv::WINDOW_AUTOSIZE );
 	cv::namedWindow( "Example2", cv::WINDOW_AUTOSIZE );

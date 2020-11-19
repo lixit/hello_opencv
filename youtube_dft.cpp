@@ -82,7 +82,7 @@ int main_Gaussian()
 
 }
 
-int main_DFT(int argv, char *argc[])
+int main(int argv, char *argc[])
 {
 	Mat original = imread("/home/x/Desktop/landscape.jpeg",cv::IMREAD_GRAYSCALE);
 	Mat originalFloat;

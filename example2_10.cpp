@@ -1,7 +1,7 @@
 #include <opencv2/opencv.hpp>
 #include <iostream>
 
-int main_( int argc, char** argv ) {
+int main( int argc, char** argv ) {
 	cv::namedWindow( "Example2_10", cv::WINDOW_AUTOSIZE );
 	cv::VideoCapture cap;
 	if (argc==1)

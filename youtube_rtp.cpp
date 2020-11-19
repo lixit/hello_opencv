@@ -5,7 +5,7 @@
 using namespace cv;
 using namespace std;
 
-int main_rtp(int argv, char **argc)
+int main(int argv, char **argc)
 {
 	Mat frame;
 //	VideoCapture vid("rtsp://:8554/127.0.0.1");

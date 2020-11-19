@@ -1,6 +1,6 @@
 #include <opencv2/opencv.hpp>
 
-int main2_7( int argc, char** argv ) {
+int main( int argc, char** argv ) {
 	cv::Mat img_rgb, img_gry, img_cny;
 	cv::namedWindow( "Example Gray", cv::WINDOW_AUTOSIZE );
 	cv::namedWindow( "Example Canny", cv::WINDOW_AUTOSIZE );

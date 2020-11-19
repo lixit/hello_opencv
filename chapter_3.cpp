@@ -4,7 +4,7 @@
 
 
 
-int main_chapter_3(int argc, char *argv[])
+int main(int argc, char *argv[])
 {
 	// Point
 	cv::Mat original = cv::imread("/home/x/Documents/landscape.jpeg",cv::IMREAD_UNCHANGED);
