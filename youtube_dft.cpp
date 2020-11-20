@@ -79,7 +79,7 @@ int main_Gaussian()
 	createGaussian(Size(256, 256), output, 256/2, 256/2, 10, 10);
 	imshow("Gaussian", output);
 	waitKey();
-
+    return 0;
 }
 
 int main(int argv, char *argc[])

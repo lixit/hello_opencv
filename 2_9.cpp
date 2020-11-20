@@ -24,12 +24,20 @@ int main( int argc, char** argv ) {
 
 	std::cout << "Gray pixel there is: " <<
 	(unsigned int)img_gry.at<uchar>(y, x) << std::endl;
-	x /= 4; y /= 4;
-	std::cout << "Pyramid2 pixel there is: " <<
-	(unsigned int)img_gry.at<uchar>(y, x) << std::endl;
-	img_cny.at<uchar>(x, y) = 128; // Set the Canny pixel there to 128
 
+    x /= 4; y /= 4;
+    std::cout << "Pyramid2 pixel there is: " <<
+    (unsigned int)img_pyr2.at<uchar>(y, x) << std::endl;
+    img_cny.at<uchar>(y, x) = 255; // Set the Canny pixel there to 128
 
+//    cv::namedWindow( "Example rgb", cv::WINDOW_AUTOSIZE );
+//    cv::namedWindow( "Example pyr", cv::WINDOW_AUTOSIZE );
+//    cv::namedWindow( "Example Pyramid2", cv::WINDOW_AUTOSIZE );
+
+    cv::imshow( "Example rgb", img_rgb );
+    cv::imshow( "Example gry", img_gry );
+    cv::imshow( "Example Pyramid2", img_pyr2 );
+    cv::imshow( "Example canny", img_cny );
 
 
 	cv::waitKey(0);
